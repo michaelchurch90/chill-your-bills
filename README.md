@@ -17,5 +17,4 @@ python3 -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
 python chill.py /path/to/att/bill.pdf -p 555.555.5555 -o /path/to/output.pdf
----
-
+```
