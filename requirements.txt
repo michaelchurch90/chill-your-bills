@@ -1,3 +1,2 @@
 PyMuPDF==1.23.6
 PyMuPDFb==1.23.6
-pypdf==4.3.1
