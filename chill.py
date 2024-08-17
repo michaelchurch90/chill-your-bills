@@ -37,7 +37,6 @@ for page in doc.pages():
         # I don't want redacted. Luckily all dollar values on the righ side of the page always need to be redacted.
         word_left_x = w[0]
         page_width = page.rect[2]
-        print(page_line_for_word)
         if ("$" in word 
             and phone not in page_line_for_word  #covers the case for the first "simplified" table for the bill
             and (prev_phone_number != phone or word_left_x > page_width * .65 )): #covers the itemized list of my phone bill plus the right side of the page
